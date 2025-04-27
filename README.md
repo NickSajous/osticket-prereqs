@@ -146,7 +146,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
-11. 
+11. in the Files manager, Click on windows (C:), and click on inetpub, then wwwroot, then move the "upload" folder from “osTicket-v1.15.8” into the wwwroot folder. Rename the "upload" folder to "osTicket" *IMPORTANT* make sure it is spelled exactly like "osTicket". It will not work if it is spelled any other way.
+
+![Screenshot 2025-04-27 162712](https://github.com/user-attachments/assets/2ab5c971-9d56-4c37-80ab-af2de0d249f5) ![Screenshot 2025-04-27 145338](https://github.com/user-attachments/assets/7d186b6a-1d04-4ee0-aa5f-9162a2a0e3f2) ![Screenshot 2025-04-27 145408](https://github.com/user-attachments/assets/682b5f99-9249-4c7c-b8b0-9f512239099d) ![Screenshot 2025-04-27 145439](https://github.com/user-attachments/assets/187c4e4d-aac4-43d5-ae4e-d07c4cea2a3c) 
+
+
 
 
 
@@ -154,3 +158,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
+12. Go to the IIS Manager and stop and start the server again. Then, click the drop down for Sites, Default Web Site, then osTicket. On the right side of the screen, click  “Browse *:80” and it should take you to a website that looks like the one below, considering you did all of the steps right so far. 
+
+![Screenshot 2025-04-27 145843](https://github.com/user-attachments/assets/d8c1098b-44aa-42f2-9210-d76e4fcf02eb) ![Screenshot 2025-04-27 145928](https://github.com/user-attachments/assets/ae8ef438-79e8-4878-b908-8e8c85182a71) ![Screenshot 2025-04-27 150039](https://github.com/user-attachments/assets/0895f33d-ccb7-45fe-8e0d-af270f84aa14) 
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+13. Go back to the IIS Manager screen and click on PHP Manager. Under PHP Extentions, click "Enable or disable an Extension". Search for "php_imap.dll", "php_intl.dll", and "php_opcache.dll" and enable all 3. The website from earlier should look like the one below now. 
+
+![Screenshot 2025-04-27 150456](https://github.com/user-attachments/assets/5c62ffeb-aa15-4e76-8320-f7a25c4567b8) ![Screenshot 2025-04-27 150517](https://github.com/user-attachments/assets/625c0c8d-a641-4c53-be17-09bb6b69b4d4) ![Screenshot 2025-04-27 150640](https://github.com/user-attachments/assets/8bde2447-b330-45ac-a0cd-26d384d8a2ba) ![Screenshot 2025-04-27 150759](https://github.com/user-attachments/assets/ba3f2cc0-a347-47e0-8c46-3826282ff820) 
+
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+
+
+
+
