@@ -110,8 +110,43 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
+8. Next, open IIS as an Admin. You can do this by opening the Microsoft search bar and typing in IIS. Click PHP Manager and click register new PHP version.
+
+![Screenshot 2025-04-27 143606](https://github.com/user-attachments/assets/0eb15ff9-4af6-43a1-b951-8c12e9443442) ![Screenshot 2025-04-27 143740](https://github.com/user-attachments/assets/89ce168c-054c-4b79-a9de-a6f9f23e157f)  ![Screenshot 2025-04-27 143807](https://github.com/user-attachments/assets/fd6fee67-7871-4041-a52b-5e26ea6f663d) 
 
 
+
+
+
+</p>
+<p>
+</p> 
+<br />
+9. When it asks you to select an executable file, select the PHP file you made prior and click "php-cgi" then click ok. When you're finished with all of that, stop and start the server in the IIS Manager.
+
+![Screenshot 2025-04-27 143848](https://github.com/user-attachments/assets/a2bb23e4-2ac2-4c8e-a1e3-56d073ab399a) ![Screenshot 2025-04-27 143911](https://github.com/user-attachments/assets/b22a0ae8-abd4-43fc-ac61-d643600643d1) ![Screenshot 2025-04-27 143931](https://github.com/user-attachments/assets/90bac724-8bbb-4086-95f0-a3a8c04ba898) ![Screenshot 2025-04-27 144018](https://github.com/user-attachments/assets/e7e934a3-4345-47e5-b191-6dab2c3331f4)
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+10. Go back to the osTicket Installation files, right click “osTicket-v1.15.8.zip”, and click extract all. You'll see a folder named “osTicket-v1.15.8” thats unzipped in the same folder when it is finished. 
+
+![Screenshot 2025-04-27 145141](https://github.com/user-attachments/assets/e32f4b2d-204d-4e34-a060-612a7a1989e9) ![Screenshot 2025-04-27 155826](https://github.com/user-attachments/assets/9d12f8e2-1cb3-42df-b012-e2dceda9aa35) ![Screenshot 2025-04-27 160725](https://github.com/user-attachments/assets/367fd053-dead-4fa7-bfa6-11e4a433e476)
+
+
+
+ 
+
+
+</p>
+<p>
+</p> 
+<br />
+11. 
 
 
 
