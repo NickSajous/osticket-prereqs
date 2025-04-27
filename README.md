@@ -85,6 +85,33 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
+6. Go back to the osTicket installation folder, and double click " VC_redist.x86.exe" to install. When you're done with that, double click "mysql-5.5.62-win32.msi" to start installing. When you get to the choose setup screen, select the "typical" installation. When you get to the "complete setup wizard" screen, make sure to check the "launch the MySQL Instance Configuration Wizard" box before clicking finish.
+
+![Screenshot 2025-04-27 125056](https://github.com/user-attachments/assets/0691a3ce-8964-448d-bd24-c55d41a6b018)  ![Screenshot 2025-04-27 125115](https://github.com/user-attachments/assets/a48137bb-0f22-425d-ad12-4a642869622e) ![Screenshot 2025-04-27 125140](https://github.com/user-attachments/assets/30111956-a29a-4908-8797-87324b9948ed) ![Screenshot 2025-04-27 125232](https://github.com/user-attachments/assets/e4054dca-cf20-48ad-9df9-03b29438c098)  
+
+
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+7. A "MySQL Server Instance Configuration Wizard" should pop up. Select the "Standard Configuration" option and click next. *IMPORTANT* For the username and password, type in "root". Click Next and then click execute.
+
+![Screenshot 2025-04-27 125258](https://github.com/user-attachments/assets/35cd37b3-5394-4a5b-a1fa-00551c9d44db) ![Screenshot 2025-04-27 125330](https://github.com/user-attachments/assets/40fdefbc-1643-45fe-b44d-b88614d24c1f) ![Screenshot 2025-04-27 125544](https://github.com/user-attachments/assets/56a77cd6-bfe3-4817-b841-2490de0f935c)
+
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+
+
 
 
 
