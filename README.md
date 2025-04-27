@@ -169,7 +169,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
-13. Go back to the IIS Manager screen and click on PHP Manager. Under PHP Extentions, click "Enable or disable an Extension". Search for "php_imap.dll", "php_intl.dll", and "php_opcache.dll" and enable all 3. The website from earlier should look like the one below now. 
+13. Go back to the IIS Manager screen and click on PHP Manager. Under PHP Extentions, click "Enable or disable an Extension". Search for "php_imap.dll", "php_intl.dll", and "php_opcache.dll" and enable all 3. Refresh the website and it should change to the one below. 
 
 ![Screenshot 2025-04-27 150456](https://github.com/user-attachments/assets/5c62ffeb-aa15-4e76-8320-f7a25c4567b8) ![Screenshot 2025-04-27 150517](https://github.com/user-attachments/assets/625c0c8d-a641-4c53-be17-09bb6b69b4d4) ![Screenshot 2025-04-27 150640](https://github.com/user-attachments/assets/8bde2447-b330-45ac-a0cd-26d384d8a2ba) ![Screenshot 2025-04-27 150759](https://github.com/user-attachments/assets/ba3f2cc0-a347-47e0-8c46-3826282ff820) 
 
