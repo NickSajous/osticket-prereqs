@@ -22,35 +22,73 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Set up a Virtual Machine in Azure
 - Install the OsTicket requirements
 - Install OsTicket 
-- Do the after-installation config of osTicket
-
 <h2>Installation Steps</h2>
 
 
 
 <p>
+  1. Copy and paste this link (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) onto your browser, and download. When finished, unzip the folders onto the desktop. The folder should be called osTicket-Installation-files.
   
-  ![Screenshot 2025-04-26 181444](https://github.com/user-attachments/assets/be75b31a-03c8-4863-af3d-ca3b6592537e) 
+  ![Screenshot 2025-04-26 181444](https://github.com/user-attachments/assets/be75b31a-03c8-4863-af3d-ca3b6592537e) ![Screenshot 2025-04-27 131339](https://github.com/user-attachments/assets/0068c85e-ad08-4101-9e2c-666a25f683f8) ![Screenshot 2025-04-27 131356](https://github.com/user-attachments/assets/44c22df5-87e8-4801-a38d-385b0f8cfa01)
 
-</p>
-<p>
-</p>
-1. Copy and paste this link (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) onto your browser, and download. When finished, unzip the folders onto the desktop. The folder should be called osTicket-Installation-files
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+2. Before we do anything, we have to enable support for CGI executables. To do that, we need to go to the control panel, open "Programs", Then click on " Turn Windows features on or off". 
+  
+  ![Screenshot 2025-04-26 183537](https://github.com/user-attachments/assets/fe4d9591-0cac-450a-b050-b1621a9168d0) ![Screenshot 2025-04-26 183557](https://github.com/user-attachments/assets/89f9e328-86aa-4345-8e3b-018f2c0d8ac4) ![Screenshot 2025-04-26 183616](https://github.com/user-attachments/assets/7102fe9f-e698-47fc-aad4-887b1d5d3da6)
+
+
+
 </p>
 <p>
+</p> 
+<br />
+
+<p>
+  3. Scroll down to Internet Information Services, and click on World Wide Web Services. Click on Application Development Features and select CGI from the drop down menu. Click ok to install. 
+
+  ![Screenshot 2025-04-26 183637](https://github.com/user-attachments/assets/a6698adc-41fd-44a6-9f51-0edbc058c023) ![Screenshot 2025-04-26 183711](https://github.com/user-attachments/assets/3be09af4-de50-4fb2-944b-cdb4f448e3ef) ![Screenshot 2025-04-26 183722](https://github.com/user-attachments/assets/7866b2e0-3c11-4d13-95b4-83b96290a194) 
+
 </p>
+<p>
+</p> 
+<br />
+4. Now, go back into the "osTicket installation files" folder, and double click "PHPManagerForIIS_V1.5.0.msi" to install. Click on yes and ok for every option and install. After that, we're going to install the Rewrite Module. Double click "rewrite_amd64_en-US.msi", click yes and ok for every option and install. 
+
+![Screenshot 2025-04-27 124153](https://github.com/user-attachments/assets/d64f493b-4ab0-4d28-8d64-28c7a1d461b4) ![Screenshot 2025-04-27 124221](https://github.com/user-attachments/assets/4d6fb2a5-d29f-4baa-9116-2dc99f6088aa) ![Screenshot 2025-04-27 124253](https://github.com/user-attachments/assets/5e50319d-5f46-405c-85b5-34c2c84baf13) ![Screenshot 2025-04-27 124308](https://github.com/user-attachments/assets/195ec913-4bc5-417b-ab38-b8985d1ef37f) 
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+
+5. Go into your file explorer and create a new file named "PHP" in the Local Disk. after that, right click on "php-7.3.8-nts-Win32-VC15-x86.zip" and click Extract All. When it asks you for a destination, select the PHP folder you made in your local disk and extract.
+
+![Screenshot 2025-04-27 124439](https://github.com/user-attachments/assets/eb0203ff-a3e5-443e-ba2c-afd48ce51426) ![Screenshot 2025-04-27 124804](https://github.com/user-attachments/assets/e9d1dd7a-a4c1-4bb2-bd57-7c1e02af3524) ![Screenshot 2025-04-27 124826](https://github.com/user-attachments/assets/5ae7c0da-72d8-465b-9a2f-fbd51f7a92de) ![Screenshot 2025-04-27 124847](https://github.com/user-attachments/assets/84ba3b5f-0ed7-4f82-b126-9d375080352f)
+ 
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+
+
+
+</p>
+<p>
+</p> 
 <br />
