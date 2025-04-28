@@ -181,7 +181,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
-14. 
+14. Back in the wwwroot folder, open the "osTicket" folder, then the "include" folder. Find and rename the "ost-sampleconfig.php" to "ost-config.php" *IMPORTANT* Make sure you spell "ost-config.php" correctly. It won't work if it's spelled any other way.
+
+![Screenshot 2025-04-27 184913](https://github.com/user-attachments/assets/b258a425-490a-4703-98e1-8d7c6ec10167) ![Screenshot 2025-04-27 184943](https://github.com/user-attachments/assets/de8cc767-c45c-44da-a2ff-f51f32bb4241)  ![Screenshot 2025-04-27 185013](https://github.com/user-attachments/assets/9d143fb7-d4ce-45b5-bd3e-550dec8d3dd1) ![Screenshot 2025-04-27 185039](https://github.com/user-attachments/assets/faf3f8f2-6cce-47e8-8498-c97a67f49d9f)
+
+
+
 
 
 
@@ -189,7 +194,64 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
+15. Right click on "ost-config.php", click on properties, and click on advanced. Disable all inheritance, click add, then select a principal. Under "Enter the object name to select" type "Everyone" then ok. Before hitting ok again, give "Full control" to "Everyone"
 
+![Screenshot 2025-04-27 185131](https://github.com/user-attachments/assets/27f51714-2261-4b1f-927b-71c5508a5e91) ![Screenshot 2025-04-27 185147](https://github.com/user-attachments/assets/257708ad-4d36-4159-b36c-daddb047a95f) ![Screenshot 2025-04-27 185223](https://github.com/user-attachments/assets/4b9ccff9-c591-4fb1-8656-f29d75e5b66d) ![Screenshot 2025-04-27 185248](https://github.com/user-attachments/assets/f1983d0e-0fe2-46aa-99fc-b104b58f3501) ![Screenshot 2025-04-27 185600](https://github.com/user-attachments/assets/db21132d-14a1-41d1-a8cf-d9c8903a1853) ![Screenshot 2025-04-27 185626](https://github.com/user-attachments/assets/3dc590fe-c2cc-40c6-95bc-07d4a2724fd4) ![Screenshot 2025-04-27 185705](https://github.com/user-attachments/assets/eae3ee81-6719-4fd8-a54d-12cc1791c8ea)
+
+
+
+ 
+
+</p>
+<p>
+</p> 
+<br />
+16. Go back to the osTicket website and click "Continue" on the bottom to continue with the installation process. You can name your HelpDesk whatever you want, same thing with your first and last name. Just make sure that the email you put in the "Default Email" and "Email Address" feilds are different. They dont have to be real emails. Under the "username and password" feilds, put in the one you see below.
+
+![Screenshot 2025-04-27 190525](https://github.com/user-attachments/assets/e19b7425-92d2-4e18-ae58-879c6d4c5e02) ![Screenshot 2025-04-28 093311](https://github.com/user-attachments/assets/fb5ac2b4-3bad-490a-83eb-9c3132d8ea08) ![Screenshot 2025-04-28 093405](https://github.com/user-attachments/assets/a25224cc-e41a-485d-a756-a9b2013275da) 
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+17. Back in the osTicket-installation foolder, Double click "HeidiSQL" to install. Click yes and ok for every option until the installation is complete. When finished, make sure the "Launch HeidiSQL" checkbox is checked. when the Session manager pops up on your screen, click "New" on the bottom left, type in "root" for the password, then "Open". Right click on "Unnamed", then click "Create New" then "Database". Type in "osTicket" then click ok. *IMPORTANT* Make sure "osTicket" os spelled correctly. IT will not work if its spelled wrong. You should see "osTicket" under the "Unnamed" menu. 
+
+![Screenshot 2025-04-28 093553](https://github.com/user-attachments/assets/ee1b575f-b57f-4d7e-bb95-8b3861a60ab7) ![Screenshot 2025-04-28 093759](https://github.com/user-attachments/assets/28a20e74-bbe6-4952-a0df-2f712f005617) ![Screenshot 2025-04-28 093914](https://github.com/user-attachments/assets/79935246-baea-462f-aa74-33a83558c5bb) ![Screenshot 2025-04-28 094218](https://github.com/user-attachments/assets/633ee8f8-4c04-441e-824f-3f63f118e990) ![Screenshot 2025-04-28 094239](https://github.com/user-attachments/assets/0f01af96-c21a-44e2-ac6e-fec1ed11e3f6) ![Screenshot 2025-04-28 094259](https://github.com/user-attachments/assets/ca17033b-9e65-44a7-8aea-86cb513077f6)
+
+
+
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+18. Go back to the webpage and type in what you see below. Make sure evrything is spelled correctly, otherwise it wont install porperly. Click install now. If everything was done correctly, you should be taken to a screen that looks like the one below. 
+
+![Screenshot 2025-04-28 101027](https://github.com/user-attachments/assets/790cabd2-6185-4a19-89e1-e49163a78464) ![image](https://github.com/user-attachments/assets/a7bf335f-eed0-4889-8d85-f4d1c2d46bfe) 
+
+
+
+
+</p>
+<p>
+</p> 
+<br />
+19. Open a new tap and type "http://localhost/osTicket/scp/login.php" into the URL. You should be taken to the page below. To login, use the osTicket Admin username and password you used in the previous steps. You should be met with a screen like the one below. 
+
+![image](https://github.com/user-attachments/assets/a11b71cd-38a4-4c8d-88f7-9a554ac2eec8) ![image](https://github.com/user-attachments/assets/1860b73a-85fd-4e84-abde-a74efa0ae0f9) 
+
+
+
+</p>
+<p>
+</p> 
+<br />
 
 
 
