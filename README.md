@@ -242,9 +242,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p> 
 <br />
-19. Open a new tap and type "http://localhost/osTicket/scp/login.php" into the URL. You should be taken to the page below. To login, use the osTicket Admin username and password you used in the previous steps. You should be met with a screen like the one below. 
+19. Open a new tap and type "http://localhost/osTicket/scp/login.php" into the URL. You should be taken to the page below. To login, use the osTicket Admin username and password you used in the previous steps. You should be met with a screen like the one below. To make your own tickets, open a new tab and type "http://localhost/osTicket/" in the URL.
 
-![image](https://github.com/user-attachments/assets/a11b71cd-38a4-4c8d-88f7-9a554ac2eec8) ![image](https://github.com/user-attachments/assets/1860b73a-85fd-4e84-abde-a74efa0ae0f9) 
+![image](https://github.com/user-attachments/assets/a11b71cd-38a4-4c8d-88f7-9a554ac2eec8) ![image](https://github.com/user-attachments/assets/1860b73a-85fd-4e84-abde-a74efa0ae0f9) ![image](https://github.com/user-attachments/assets/5e78c175-fa36-4a21-9c18-ed2d80f2d838)
+
 
 
 
@@ -253,5 +254,5 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p> 
 <br />
 
-
+Congrats! You've successfully installed osTicket onto your computer!
 
